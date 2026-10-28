@@ -7,7 +7,7 @@ import { Ansi, summarize } from "./ansi";
 import { diffLines } from "./diff";
 import { getSessionId } from "./session";
 
-const REPO = "https://github.com/get-convex/convex-daytona-rust-fixer";
+const REPO = "https://github.com/convex/convex-daytona-rust-fixer";
 const MAX_PROMPT = 500;
 const EXAMPLES = [
   { label: "First 20 primes", prompt: "A CLI that prints the first 20 primes in a neat table" },

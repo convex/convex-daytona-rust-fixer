@@ -19,7 +19,7 @@ Built with [Convex](https://convex.dev) and the [`@daytona/convex`](https://www.
 ## Run your own
 
 ```bash
-git clone https://github.com/get-convex/convex-daytona-rust-fixer
+git clone https://github.com/convex/convex-daytona-rust-fixer
 cd convex-daytona-rust-fixer
 npm install
 npx convex dev --once   # creates your Convex project, then stops: DAYTONA_API_KEY isn't set yet
@@ -36,7 +36,7 @@ import { openai } from "@ai-sdk/openai"; // instead of convexGateway
     model: openai("gpt-5"),               // instead of convexGateway(MODEL)
 ```
 
-To host the frontend on your Convex deployment too, run `npm run deploy` (it uses [`@convex-dev/static-hosting`](https://github.com/get-convex/static-hosting)).
+To host the frontend on your Convex deployment too, run `npm run deploy` (it uses [`@convex-dev/static-hosting`](https://github.com/convex/static-hosting)).
 
 ### Faster first sandbox (optional)
 
